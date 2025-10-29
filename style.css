@@ -62,6 +62,7 @@ ul li a:visited {
 }
 
 .ejercicio7 #lengthInput {
+    width: 170px;
     margin-left: 5px;
 }
 
