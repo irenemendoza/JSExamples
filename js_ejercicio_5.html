@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 5 de JS</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body  id="container" class="ejercicio5">
+    <div>
+        <h1> 5. Calculadora Sencilla</h1>
+        <a href="index.html">Volver al menú</a>
+        <div class="enunciado">
+            <h2>Objetivo del ejercicio:</h2>
+            <p>Practicar la manipulación de formularios, eventos, y lógica básica de
+            JavaScript.</p>
+            <h2>Ejercicio:</h2>
+            <p>Crea una página con dos campos de entrada de números y cuatro botones: "Sumar", "Restar",
+            "Multiplicar", y "Dividir".
+            </p>
+            <ul>
+                <li>Al hacer clic en cualquiera de los botones, debe mostrarse el resultado de la operación en un
+                área de texto o debajo de los botones.</li>
+                <li>Asegúrate de validar los datos para evitar errores (como división por cero o entradas vacías).
+                </li>
+            </ul>
+        </div>
+        <div class="resolucion">
+            <h2>Resolución:</h2>
+            <div class="calculadora">
+                <input type="number" id="num1" placeholder="Introducir número 1" required>
+                <input type="number" id="num2" placeholder="Introducir número 2" required>
+                <button id="sumar">Sumar</button>
+                <button id="restar">Restar</button>
+                <button id="multiplicar">Multiplicar</button>
+                <button id="dividir">Dividir</button>
+                <h3>Resultado: <span id="resultadoTexto">0</span></h3>
+            </div>
+           
+        </div>
+        
+    </div>
+    <script src="./js/js_ejercicio_5.js"></script>
+</body>
+
+</html>
